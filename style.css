@@ -1,0 +1,52 @@
+                                                                                                 h1 {
+                                                                                         margin: 15px;
+                                                                                         font-size: 25px;
+                                                                                         max-width: 800px;
+                                                                                         padding: 20px;
+                                                                                         margin-left: 40px;
+                                                                                     }
+                                                                                     
+                                                                                     .container {
+                                                                                         width: 100%;
+                                                                                         max-width: 960px;
+                                                                                         min-width: 400;
+                                                                                         margin: auto;
+                                                                                         overflow: auto;
+                                                                                         display: flex;
+                                                                                         flex-direction: row;
+                                                                                         flex-flow: row wrap;
+                                                                                         align-content: flex-start;
+                                                                                     }
+                                                                                     
+                                                                                     .image {
+                                                                                         float: left;
+                                                                                         width: 160px;
+                                                                                         background-color: #6ba2da;
+                                                                                         border-top-left-radius: 10%;
+                                                                                         border-top-right-radius: 10%;
+                                                                                         margin: 15px;
+                                                                                         flex-basis: 16%;
+                                                                                         box-sizing: border-box;
+                                                                                         padding: 8px;
+                                                                                     }
+                                                                                     
+                                                                                     p1 {
+                                                                                         margin: 15px;
+                                                                                         font-size: 15px;
+                                                                                         max-width: 800px;
+                                                                                         padding: 20px;
+                                                                                         margin-left: 40px;
+                                                                                     }
+                                                                                     
+                                                                                     @media screen and (max-width: 1024px) {
+                                                                                         .image {
+                                                                                             width: 33%;
+                                                                                         }
+                                                                                         @media screen and (max-width: 768px) {
+                                                                                             .image {
+                                                                                                 width: 50%;
+                                                                                             }
+                                                                                             @media screen and (max-width: 414px) {
+                                                                                                 .image {
+                                                                                                     width: 100%;
+                                                                                                 }
